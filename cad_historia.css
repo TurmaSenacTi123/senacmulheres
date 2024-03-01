@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    background-color:  rgba(255, 192, 203, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.cadastro-moldura {
+    background-color: rgb(255, 182, 193); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 650px; 
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;   
+    padding: 10px 0 40px 0; 
+}
+
+#conteudo-moldura{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.titulo-moldura{
+    color: #333;
+    font-size: 65px;
+    font-weight: bold; 
+}
+
+.moldura-campos label{
+    color: #333;
+    font-size: 20px;
+    font-weight: none;
+
+}
+
+.moldura-campos input {
+    background-color: rgb(253, 220, 226);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 400px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label{
+    color: #333;
+    font-size: 20px;
+    font-weight: none;
+}
+
+.input-container textarea{
+    background-color: rgba(253, 220, 226);
+    /* border: solid red; */
+    height: 200px;
+    width: 400px;
+    max-height: 200px;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.input-container span {
+    color: #333;
+    margin-left: 250px;
+    font-size: 16px;
+}
+
+#cadastro-logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    
+}
+
+#cadastro-logo #img {
+    margin-left: 60px;
+}
+
+#bt button{
+    background-color: rgb(252, 149, 164);
+    color: #333;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: none;
+    border: none;
+    outline: none;
+}
+
+#bt{
+    display: flex;
+    
+}
